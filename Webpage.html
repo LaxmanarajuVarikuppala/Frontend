@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Webpage</title>
     <style>
-        body {
+        /* body {
       font-family: 'Poppins', sans-serif;
     }
 
@@ -15,6 +15,55 @@
 
     p {
       font-weight: 400;
+    } */
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family:  'Poppins', sans-serif;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 1200px;
+      width: 100%;
+      margin: auto;
+    }
+
+    table {
+      width: 100%;
+      height: auto;
+    }
+    img{
+      width: 50%;
+      height: auto; 
+    }
+    h1, p {
+      font-size: 1rem;
+    }
+
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 1.5rem;
+      }
+
+      p {
+        font-size: 1rem;
+      }
+    }
+
+    @media (min-width: 769px) {
+      h1 {
+        font-size: 2rem;
+      }
+
+      p {
+        font-size: 1.2rem;
+      }
     }
     .curved-table {
       border-collapse: separate;
